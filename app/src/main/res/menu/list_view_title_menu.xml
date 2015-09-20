@@ -1,0 +1,16 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_refresh_title"
+        android:icon="@drawable/ic_reload"
+        android:title="Refresh"
+         />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_reload"
+        android:title="Refresh"
+        android:showAsAction="always|withText"
+        tools:ignore="AppCompatResource" />
+    
+
+</menu>
